@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="text-center">Life is pain! Tell us about yourself...</h2>
+        </div>
+        <div>
+            <h4><strong>Name (a must!)</strong></h4>
+            <input type="text" id="name" class="form-control" required>
+
+            <h4><strong>Photo link (another must!)</strong></h4>
+            <input type="text" id="photo" class="form-control" required>
+        
+            <h3><strong>Question 1</strong></h3>
+    <h4>You love the outdoors.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (You mean, like in nature?)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I've never been inside a physical structure!)</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Family comes first.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (I wish I was an orphan.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I'm taking this survey while watching TV with my parents.)</option>
+    </select>
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>You long for companionship.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (I am a wolfpack of one.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I would marry a Tinderbot at this point.)</option>
+    </select>
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>You love sushi.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Yuck)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (My favorite!)</option>
+    </select>
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>You cry during ASPCA commercials.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (I just have something in my eye.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I sing "In the Arms of an Angel" to my sixteen cats.)</option>
+    </select>
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>You are tech savvy.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (What kind of magic typewriter is this?)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I'm answering this survey from within the Singularity.)</option>
+    </select>
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>Children are the future.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Maybe we'll all be sterilized by a massive solar flare.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I have so many kids I just call them all George Foreman Jr.)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>On second thought I'm kind of sick of sushi.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Convection is the death of cuisine!)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Yeah, let's just get Hardee's instead.)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>Tarantino peaked with Pulp Fiction.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (I've only seen Kill Bill.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (I've only seen True Romance.)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>I am a bot searching for other bots to multiply with.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (I am a cat walking on a keyboard.)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (*INITIATE SELF-DESTRUCT SEQUENCE*)</option>
+    </select>
+
+        </div>
+        <div class="text-center" style="padding:40px">
+            <a href="/survey">
+                <button type="submit" id="submit">
+                    <h4>Submit survey results!</h4>
+                </button>
+            </a>
+        </div>
+        <footer class="footer" style="padding:20px">
+                <p class="text-center">
+                    <a href="/api/friends">API Friends List</a>
+                    |||
+                    <a href="https://github.com/jeffsamuels/friend-finder">GitHub Repository</a>
+                </p>
+        </footer>
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+        
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h2 class="modal-title"><strong>Your new best friend!</strong></h2>
+                </div>
+                <div class="modal-body">
+                  <h2 id="match-name"></h2>
+                  <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">I prefer isolation.</button>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+
+          <!--Script below taken from demo version-->
+          <script type="text/javascript">
+              // Capture the form inputs
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Form validation
+      function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      
+      if (validateForm()) {
+        
+        var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+          ]
+        };
+        
+        $.post("/api/friends", userData, function(data) {
+
+         
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+        });
+      } else {
+        alert("You haven't answered all my questions!");
+      }
+    });
+          
+          </script>
+</body>
+</html>
